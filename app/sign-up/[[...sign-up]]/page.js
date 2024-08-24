@@ -8,11 +8,11 @@ export default function SignUpPage() {
 
     return (
         <>
-        <Container maxwidth="sm">
+        <Container maxwidth="150vw">
             <AppBar position="static" sx={{ backgroundColor: '#3f51b5' }}>
                 <Toolbar>
-                    <Typography variant="h6" sx={{ flexGrow: 1 }}>
-                        Flashcard SaaS
+                    <Typography variant="h6" sx={{ flexGrow: 2 }}>
+                        FlashWiz
                     </Typography>
                     <Button color="inherit">
                         <Link href="/sign-in" passHref>
